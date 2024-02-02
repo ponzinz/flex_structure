@@ -29,6 +29,11 @@ nav * {
     border: 1px dashed black;
 }
 
+
+footer div {
+    border: 1px dashed black;
+}
+
 /* #endregion debug */
 /*--------------------
     HEADER
@@ -116,10 +121,50 @@ section:nth-child(odd) {
     FOOTER
 --------------------*/
 /* #region footer */
+footer {
+    background-color: rgb(35, 35, 35);
+}
 
+.footer-container {
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer-box {
+    width: 1200px;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+}
 
+.fbox1 {
+    height: 100%;
+    background-color: rgb(172, 22, 192);
+    flex-grow: 2;
+}
 
+.fbox2 {
+    height: 100%;
+    background-color: rgb(118, 163, 184);
+    flex-grow: 1;
+}
 
+.end-footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.end-footer-box {
+    width: 1200px;
+    height: 80px;
+    background-color: aqua;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* #endregion footer */
