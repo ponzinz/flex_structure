@@ -10,6 +10,7 @@
 /*--------------------
     DEBUG
 --------------------*/
+/* #region debug */
 header.debug {
     background-color: purple;
 }
@@ -28,10 +29,11 @@ nav * {
     border: 1px dashed black;
 }
 
+/* #endregion debug */
 /*--------------------
     HEADER
 --------------------*/
-
+/* #region header */
 nav {
     width: 1200px;
     padding: 20px 0;
@@ -61,3 +63,63 @@ nav div:nth-child(2) {
     width: 500px;
     height: 350px;
 }
+
+/* #endregion header */
+/*--------------------
+    MAIN
+--------------------*/
+/* #region main */
+section:nth-child(odd) {
+    background-color: beige;
+}
+
+.main-container {
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.main-box {
+    width: 1200px;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+}
+
+.main-box-alt {
+    width: 1200px;
+    height: 900px;
+    background-color: rgb(0, 255, 76);
+    margin: 50px;
+
+}
+
+.box1 {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(0, 174, 255);
+}
+
+.box2 {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(246, 144, 250);
+}
+
+/* #endregion main */
+/*--------------------
+    FOOTER
+--------------------*/
+/* #region footer */
+
+
+
+
+
+
+/* #endregion footer */
